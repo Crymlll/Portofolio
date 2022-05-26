@@ -24,7 +24,9 @@ export const Project = () => {
 	const [users, setUsers] = useState([])
 
 	const getUser = async () => {
-		const response = await axios.get("http://localhost:5000/users")
+		const response = await axios.get(
+			"https://server-auliarahmanzulfi.herokuapp.com/users"
+		)
 		console.log(response.data)
 		setCommentLength(response.data.length)
 		setUsers(response.data)
@@ -35,7 +37,10 @@ export const Project = () => {
 		try {
 			if (dataUser.nama.length === 0) dataUser.nama = "Anonymous"
 
-			await axios.post("http://localhost:5000/users", dataUser)
+			await axios.post(
+				"https://server-auliarahmanzulfi.herokuapp.com/users",
+				dataUser
+			)
 			setDataUser({
 				nama: "",
 				email: "",
@@ -50,7 +55,9 @@ export const Project = () => {
 
 	const deleteUser = async (id) => {
 		try {
-			await axios.delete(`http://localhost:5000/users/${id}`)
+			await axios.delete(
+				`https://server-auliarahmanzulfi.herokuapp.com/users/${id}`
+			)
 			getUser()
 		} catch (err) {
 			console.log(err)
