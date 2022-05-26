@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Prak2-PWL-ReactJS/static/css/main.19331886.css",
+    "main.js": "/Prak2-PWL-ReactJS/static/js/main.ff1fd18e.js",
+    "static/js/787.b7af92ad.chunk.js": "/Prak2-PWL-ReactJS/static/js/787.b7af92ad.chunk.js",
+    "index.html": "/Prak2-PWL-ReactJS/index.html",
+    "main.19331886.css.map": "/Prak2-PWL-ReactJS/static/css/main.19331886.css.map",
+    "main.ff1fd18e.js.map": "/Prak2-PWL-ReactJS/static/js/main.ff1fd18e.js.map",
+    "787.b7af92ad.chunk.js.map": "/Prak2-PWL-ReactJS/static/js/787.b7af92ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19331886.css",
+    "static/js/main.ff1fd18e.js"
+  ]
+}
