@@ -182,9 +182,63 @@ export const Project = () => {
 					<p>Use Laravel with SQLite</p>
 					<p>For PWL Course</p>
 				</div>
+
+				<div
+					className={classes.project}
+					onClick={() =>
+						window.open(
+							"https://github.com/Crymlll/bs-frontend-website"
+						)
+					}
+				>
+					<h4>Bang Salam - Mobile</h4>
+					<img
+						className={classes.img}
+						src={`${process.env.PUBLIC_URL}/project-7.png`}
+						alt="profile"
+					/>
+					<h6>2022 - Frontend Developer </h6>
+					<p>Use React Native with MySQL</p>
+					<p>For Purino LHS</p>
+				</div>
+
+				<div
+					className={classes.project}
+					onClick={() =>
+						window.open(
+							"https://github.com/Crymlll/bs-frontend-website"
+						)
+					}
+				>
+					<h4>Bang Salam - Website</h4>
+					<img
+						className={classes.img}
+						src={`${process.env.PUBLIC_URL}/project-8.png`}
+						alt="profile"
+					/>
+					<h6>2022 - Frontend Developer </h6>
+					<p>Use ReactJS with MySQL</p>
+					<p>For Purino LHS</p>
+				</div>
+				<div
+					className={classes.project}
+					onClick={() =>
+						window.open("https://github.com/Crymlll/dishub")
+					}
+				>
+					<h4>Analisis dan Pemetaan Kepegawaian</h4>
+					<img
+						className={classes.img}
+						src={`${process.env.PUBLIC_URL}/project-9.png`}
+						alt="profile"
+					/>
+					<h6>2023 - Fullstack Developer </h6>
+					<p>Use ReactJS with MySQL</p>
+					<p>For Dinas Perhubungan Provinsi Lampung</p>
+				</div>
 			</div>
 
-			<div className={classes.bottom}>
+			{/* <div className={classes.bottom}>
 				<h4>Leave a Comment</h4>
 				<form onSubmit={saveUser} className={classes.form}>
 					<input
@@ -222,8 +276,8 @@ export const Project = () => {
 						Send
 					</button>
 				</form>
-			</div>
-			<div className={classes.commentSection}>
+			</div> */}
+			{/* <div className={classes.commentSection}>
 				<h4>Comments ({commentLength})</h4>
 				{users.map((user, index) => (
 					<div key={user._id} className={classes.comment}>
@@ -256,7 +310,7 @@ export const Project = () => {
 						</div>
 					</div>
 				))}
-			</div>
+			</div> */}
 		</motion.div>
 	)
 }
